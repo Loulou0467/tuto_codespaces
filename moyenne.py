@@ -19,7 +19,6 @@ def moyenne(valeurs):
 
     **Exceptions**
     - `ValueError` : si la liste est vide
-
     ---
     """
     print("!! TODO : Compléter la fonction moyenne !!", end=" ")
