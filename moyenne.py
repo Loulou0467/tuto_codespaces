@@ -8,21 +8,11 @@ from rich.console import Console
 
 def moyenne(valeurs):
     # docstrings en markdown
-    """
-    # Calcule la moyenne des valeurs.
+    if not valeurs:
+        raise ValueError("La liste ne doit pas être vide")
+    
+    return sum(valeurs) / len(valeurs)
 
-    **Paramètres**
-    - `valeurs` : valeurs dont on veut calculer la moyenne
-
-    **Retour**
-    - la moyenne des valeurs
-
-    **Exceptions**
-    - `ValueError` : si la liste est vide
-    ---
-    """
-    print("!! TODO : Compléter la fonction moyenne !!", end=" ")
-    pass
 
 
 if __name__ == "__main__":
